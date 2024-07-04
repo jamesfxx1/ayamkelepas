@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Ayam Kelepas</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <a href="index.html"><img src="img/ayamKelapas.png" alt="Ayam Kelepas"></a>
+    </div>
+    <nav>
+        <ul class="nav">
+            <li class="nav-item"><a href="index.html"><i class="fa-solid fa-utensils"></i>Tentang</a></li>
+            <li class="nav-item"><a href="profile.html"><i class="fa-solid fa-user"></i>Profile</a></li>
+            <li class="nav-item"><a href="menu.html"><i class="fa-solid fa-bowl-food"></i>Menu</a></li>
+            <li class="nav-item"><a href="kontak.html"><i class="fa-solid fa-address-book"></i>Kontak</a></li>
+        </ul>
+    </nav>
+
+    <h1>Kontak Ayam Kelepas</h1>
+
+    <div class="container-kontak">
+        <div class="kontak-item">
+            <h2>kontak</h2>
+            <div class="kontak">
+                <form class="kontak-input">
+                    <table>
+                        <tr>
+                            <th><label for="data_name">Nama :</label></th>
+                            <td><input type="text" name="data_nama" class="data_nama" placeholder="..."></td>
+                        </tr>
+                        <tr>
+                            <th><label for="rating">Rating :</label></th>
+                            <td>
+                                <input type="radio" name="data_rating">
+                                <label for="rating"><i class="fa-solid fa-star"></i>1</label>
+                                <input type="radio" name="data_rating">
+                                <label for="rating"><i class="fa-solid fa-star"></i>2</label>
+                                <input type="radio" name="data_rating">
+                                <label for="rating"><i class="fa-solid fa-star"></i>3</label><br>
+                                <input type="radio" name="data_rating">
+                                <label for="rating"><i class="fa-solid fa-star"></i>4</label>
+                                <input type="radio" name="data_rating">
+                                <label for="rating"><i class="fa-solid fa-star"></i>5</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label for="pesan">Kritik & Saran :</label></th>
+                            <td><textarea name="pesan" placeholder="masukan pesan anda!" cols="22px" rows="10px"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="buttons"><button type="submit">Submit</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
